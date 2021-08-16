@@ -117,7 +117,9 @@ if (allEnemiesSize === 0) {
   container.append(result);
   clearInterval(clearAll);
   document.onkeydown = null;
-} else {
+} 
+    
+    else {
   for (enemy = 0; enemy < enemies.length; enemy++) {
     if (enemies[enemy].top >= hero.top - 20) {
       container = document.querySelector("#background");
